@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Item/> renders and display properly 1`] = `
+<ItemStyles__Item>
+  <img
+    alt="A cool item"
+    src="dog.js"
+    width="200"
+  />
+  <Title>
+    <Link
+      href={
+        Object {
+          "pathname": "/item",
+          "query": Object {
+            "id": "Abc123",
+          },
+        }
+      }
+    >
+      <a>
+        A cool item
+      </a>
+    </Link>
+  </Title>
+  <PriceTag>
+    $50
+  </PriceTag>
+  <p>
+    Cool item desc
+  </p>
+  <div
+    className="buttonList"
+  >
+    <Link
+      href={
+        Object {
+          "pathname": "/update",
+          "query": Object {
+            "id": "Abc123",
+          },
+        }
+      }
+    >
+      <a>
+         Edit ✏️
+      </a>
+    </Link>
+    <AddToCart
+      id="Abc123"
+    />
+    <DeleteItem
+      id="Abc123"
+    >
+      Delete this item 🗑️
+    </DeleteItem>
+  </div>
+</ItemStyles__Item>
+`;

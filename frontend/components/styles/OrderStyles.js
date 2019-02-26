@@ -29,8 +29,8 @@ const OrderStyles = styled.div`
     margin: 2rem 0;
     padding-bottom: 2rem;
     img {
-      width: 100%;
-      height: 100%;
+      width: 100px;
+      height: 100px;
       object-fit: cover;
     }
   }

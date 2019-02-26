@@ -1,7 +1,11 @@
+import PleaseSignIn from '../components/PleaseSignIn'
+import OrderList from '../components/OrderList'
 
 const Orders = props => (
   <div>
-    <p>Orders list page!</p>
+    <PleaseSignIn>
+      <OrderList />
+    </PleaseSignIn>
   </div>
 )
 
