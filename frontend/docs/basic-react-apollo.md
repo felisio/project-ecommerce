@@ -5,7 +5,7 @@ For this first post about react.js and apollo graphql my intention is to show ho
 First, we need to install all the dependencies to use the Apollo graphql
 
 ```
-yarn install apollo-client apollo-boost graphql graphql-tag react-apollo next-with-apollo
+yarn add apollo-client apollo-boost graphql graphql-tag react-apollo next-with-apollo
 
 ```
 
