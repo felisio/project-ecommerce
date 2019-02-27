@@ -34,7 +34,7 @@ In my folder pages, I created a file called _app.js this way you can override th
 import App, { Container } from 'next/app'
 import { ApolloProvider } from 'react-apollo'
 
-import withData from '../lib/withData'
+import apolloClient from '../lib/apolloClient'
 
 class MyApp extends App {
   // TO get url querys dinamyc with next js ex: page?name=bela
@@ -61,7 +61,7 @@ class MyApp extends App {
   }
 }
 
-export default withData(MyApp)
+export default apolloClient(MyApp)
 
 ```
 
