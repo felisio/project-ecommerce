@@ -1,6 +1,6 @@
 **Basic React.js, Next and Apollo Graphql**
 
-And this first post about react.js and apollo graphql my intention is showing how to configure an ApolloClient and how the best way to use a query and mutation. For this example, I've been using next.js
+And this first post about react.js and apollo graphql my intention is showing how to configure an ApolloClient and how the best way to use a query component. For this example, I've been using next.js
 
 First, we need to install all the dependencies to use the Apollo graphql
 
