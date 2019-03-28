@@ -68,4 +68,4 @@ class RemoveFromCart extends Component {
 }
 
 export default RemoveFromCart;
-export { ADD_TO_CART_MUTATION }
+export { REMOVE_TO_CART_MUTATION }

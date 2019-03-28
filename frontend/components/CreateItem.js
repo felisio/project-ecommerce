@@ -29,11 +29,11 @@ const CREATE_ITEM_MUTATION = gql`
 
 class CreateItem extends Component {
   state = {
-    title: 'Air Jordan 3 Retro',
-    description: 'The Air Jordan 3 Retro Mens Shoe features lightweight.',
+    title: '',
+    description: '',
     image: '',
     largeImage: '',
-    price: 190,
+    price: 0,
   }
 
   handleChange = e => {
@@ -63,7 +63,7 @@ class CreateItem extends Component {
     return (
       <Mutation refetchQueries={['ALL_ITEMS_QUERY', 'PAGINATION_QUERY']} mutation={CREATE_ITEM_MUTATION} variables={this.state}>
         {(createItem, {loading, error}) => (
-          <Form onSubmit={async e => {
+          <Form data-test="form" onSubmit={async e => {
             e.preventDefault()
             const response = await createItem()
             Router.push({
@@ -133,3 +133,4 @@ class CreateItem extends Component {
 }
 
 export default CreateItem;
+export { CREATE_ITEM_MUTATION };

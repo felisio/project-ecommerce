@@ -44,7 +44,7 @@ class Signup extends Component {
         refetchQueries={[{ query: CURRENT_USER_QUERY }]}
         variables={this.state}>
         {(signup, {loading, error}) => (
-          <Form method="post" onSubmit={async e => {
+          <Form data-test="form" method="post" onSubmit={async e => {
               e.preventDefault()
               const response = await signup()
               this.setState({ email: '', name: '', password: '' })
@@ -57,6 +57,7 @@ class Signup extends Component {
                 <input 
                   type="email" 
                   name="email" 
+                  id="email" 
                   placeholder="email" 
                   value={this.state.email} 
                   onChange={this.saveToState} 
@@ -67,6 +68,7 @@ class Signup extends Component {
                 <input 
                   type="text" 
                   name="name" 
+                  id="name" 
                   placeholder="name" 
                   value={this.state.name} 
                   onChange={this.saveToState} 
@@ -77,6 +79,7 @@ class Signup extends Component {
                 <input 
                   type="password" 
                   name="password" 
+                  id="password" 
                   placeholder="password" 
                   value={this.state.password} 
                   onChange={this.saveToState} 
@@ -93,3 +96,4 @@ class Signup extends Component {
 }
 
 export default Signup;
+export { SIGNUP_MUTATION };
