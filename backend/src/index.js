@@ -34,10 +34,10 @@ server.express.use(async (req, res, next) => {
 })
 
 server.start({
-  cors: {
-    credentials: true,
-    origin: process.env.FRONTEND_URL
-  },
+  // cors: {
+  //   credentials: true,
+  //   origin: process.env.FRONTEND_URL
+  // },
 }, deet => {
   console.log(`server in running in port http://localhost:${deet.port}`)
 })
