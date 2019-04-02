@@ -57,4 +57,5 @@ type User implements Node {
   password: String!
   permissions: [Permission!]!
   cart: [CartItem!]!
+  orders: [OrderItem]
 }
