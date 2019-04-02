@@ -1,0 +1,75 @@
+{
+  "devFiles": [],
+  "pages": {
+    "/_app": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.bc45297bc5b7e34e5ad5.js",
+      "static/runtime/main-2ccb3467fa45d25bdd47.js"
+    ],
+    "/index": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.bc45297bc5b7e34e5ad5.js",
+      "static/runtime/main-2ccb3467fa45d25bdd47.js"
+    ],
+    "/item": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.bc45297bc5b7e34e5ad5.js",
+      "static/runtime/main-2ccb3467fa45d25bdd47.js"
+    ],
+    "/items": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.bc45297bc5b7e34e5ad5.js",
+      "static/runtime/main-2ccb3467fa45d25bdd47.js"
+    ],
+    "/me": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.bc45297bc5b7e34e5ad5.js",
+      "static/runtime/main-2ccb3467fa45d25bdd47.js"
+    ],
+    "/order": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.bc45297bc5b7e34e5ad5.js",
+      "static/runtime/main-2ccb3467fa45d25bdd47.js"
+    ],
+    "/orders": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.bc45297bc5b7e34e5ad5.js",
+      "static/runtime/main-2ccb3467fa45d25bdd47.js"
+    ],
+    "/permissions": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.bc45297bc5b7e34e5ad5.js",
+      "static/runtime/main-2ccb3467fa45d25bdd47.js"
+    ],
+    "/reset": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.bc45297bc5b7e34e5ad5.js",
+      "static/runtime/main-2ccb3467fa45d25bdd47.js"
+    ],
+    "/sell": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.bc45297bc5b7e34e5ad5.js",
+      "static/runtime/main-2ccb3467fa45d25bdd47.js"
+    ],
+    "/signup": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.bc45297bc5b7e34e5ad5.js",
+      "static/runtime/main-2ccb3467fa45d25bdd47.js"
+    ],
+    "/update": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.bc45297bc5b7e34e5ad5.js",
+      "static/runtime/main-2ccb3467fa45d25bdd47.js"
+    ],
+    "/_error": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.bc45297bc5b7e34e5ad5.js",
+      "static/runtime/main-2ccb3467fa45d25bdd47.js"
+    ],
+    "/": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.bc45297bc5b7e34e5ad5.js",
+      "static/runtime/main-2ccb3467fa45d25bdd47.js"
+    ]
+  }
+}
